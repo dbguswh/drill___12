@@ -13,7 +13,7 @@ from ball import Ball
 
 class Boy:
     def __init__(self):
-        self.x, self.y = 400, 30
+        self.x, self.y = 400, 60
         self.frame = 0
         self.image = load_image('animation_sheet.png')
         font_path = Path(pico2d.__file__).parent / 'data' / 'ConsolaMalgun.ttf'
